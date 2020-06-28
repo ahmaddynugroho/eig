@@ -24,4 +24,14 @@ input: 2D array of number
 output: array = []  
 
 ## Examples
-on-going
+    const eig = require('@ahmaddynugroho/eig')  
+    
+    let A = [[7, 3], [3, -1]]  
+    let B = [[5, -6], [-3, 2]]  
+    const C = [[1, 2, 3],   
+               [4, 5, 6],   
+               [7, 4, 9]]  
+     
+    console.log(eig.eig(A))  
+    console.log(eig.eig(B))  
+    console.log(eig.eig(C))  
