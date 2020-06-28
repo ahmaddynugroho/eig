@@ -1,0 +1,13 @@
+{
+  "name": "@ahmaddynugroho/eig",
+  "version": "1.0.0",
+  "description": "Calculate eigenvalues, eigenvectors, or rref(reduced row echelon form) from a 2D array (matrix)",
+  "main": "index.js",
+  "keywords": [
+    "linear",
+    "algebra",
+    "matrix"
+  ],
+  "author": "ahmaddynugroho",
+  "license": "ISC"
+}
