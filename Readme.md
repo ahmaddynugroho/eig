@@ -9,19 +9,19 @@ License: ISC
 ## Functions
 #### 1. eig(matrix)
 description: calculate eigenvalues and eigenvector of a 2D array(matrix)  
-input: 2D array of number  
-output: object = { eigval: [], eigvec: [] }  
+parameter: 2D array of number  
+return: object = { eigval: [], eigvec: [] }  
 note: eigenvector corresponding to eigenvalues with the same index  
 
 #### 2. eigval(matrix)
 description: calculate eigenvalues from a 2D array(matrix)  
-input: 2D array of number  
-output: array = []  
+parameter: 2D array of number  
+return: array = []  
 
 #### 3. rref(matrix)
 description: calculate Reduced Row Echelon Form(RREF) from a 2D array(matrix)  
-input: 2D array of number  
-output: array = []  
+parameter: 2D array of number  
+return: array = []  
 
 ## Examples
     const eig = require('@ahmaddynugroho/eig')  
