@@ -1,7 +1,7 @@
 ## Module Description
 Calculate eigenvalues, eigenvectors, or RREF(Reduced Row Echelon Form) from a 2D array (matrix)  
 Status: Abandoned  
-License: ISC  
+License: MIT 
 
 ## How to use
     npm install @ahmaddynugroho/eig
